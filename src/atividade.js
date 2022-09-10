@@ -3,7 +3,7 @@ import './App.css';
 import { useState, useRef } from 'react'; 
 import TodoItem from './components/TodoItem';
 
-function App() {
+function Atividade() {
   const [value, setValue] = useState('')
   const [data, setData] = useState([])
   const inputEl = useRef(null)
@@ -38,4 +38,4 @@ function App() {
   );
 }
 
-export default atividade;
+export default Atividade;
